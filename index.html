@@ -3,10 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Palindrome app</title>
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>Hello</h1>
+    <main>
+      <div>
+        <div className="{container}">
+          <h1>Palindrom checker</h1>
+          <div>
+            <label>
+              Check if a word, a number or a sentence is a Palindrom:
+            </label>
+            <input class="input" type="text" placeholder="type here..." />
+            <button class="button">Check</button>
+          </div>
+          <h3 class="result"></h3>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
